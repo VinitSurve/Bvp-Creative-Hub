@@ -1,0 +1,436 @@
+*{
+    font-family: 'Open Sans', sans-serif; 
+    font-display: swap;
+    color: white;
+}
+
+.img1{
+    clip-path: circle();
+    position:fixed ;
+    left: 3vw;
+    z-index: 2;
+    height: 25vw;
+    width: 15vw;
+    
+}
+.container{
+    background-color: #1c226;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    padding-right: 2vw;
+    box-sizing: border-box;
+    padding-top: 5vw;
+    padding-left: 1.5vw;
+    
+ 
+}
+.navbar{
+    position: fixed;
+    top: 5; 
+    right: 5vw; 
+    display:flex;
+    justify-content:center;
+    align-items:center;  
+    z-index: 2;
+       
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 6vw;
+    font-size: 4vw;
+    
+}    
+.page li a{
+    text-decoration: none ;
+    color: white;
+    background-color: #363636;
+    border: 0.063em solid #303030;
+    width: 100%;
+    height: 100%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    border-radius: 100vw;
+    
+}
+
+.page a:hover {
+    border: .7vw solid white;
+    color: white;
+    box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
+			0.063em 0.063em 5.04em #14EACFFF;
+	// animation: anime 1s linear infinite;
+	// margin-top: 20vw;
+}
+
+*{
+
+-webkit-tap-highlight-color: rgba(255, 255, 255,
+
+0) !important;
+
+-webkit-focus-ring-color: rgba(255, 255, 255, 0)! important;
+
+outline: none !important;
+
+}
+
+.im{
+    width: 80vw;
+    height: 50vw;
+    display: grid;
+    place-items: center;
+}
+.too{
+    color: orange;
+}
+
+.me{
+    font-size: 7.5vw;
+    text-align: left;
+    margin-top: 2vw;
+    position: absolute;
+    left: 5vw;
+    
+}
+.about{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	height: 180vw;
+	min-width: 80vw;
+	margin: 0;
+	color: black;
+ font-size: 4.5vw;
+	background-color: #262626FF;
+	font-family: sans-serif;
+	border:.7vw solid white;
+	border-radius: 10vw;
+	/*padding: 5px;
+	text-align: center;
+	cursor: pointer;*/
+	box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
+			0.063em 0.063em 5.04em #14EACFFF;
+	animation: anime 1s linear infinite;
+	margin-top: 20vw;
+	padding: 4vw 4vw 4vw 4vw ;
+	
+} /*
+
+button {
+ padding: 1.1em 2em;
+ background: none;
+ border: 2px solid #fff;
+ font-size: 15px;
+ color: #131313;
+ cursor: pointer;
+ position: relative;
+ overflow: hidden;
+ transition: all 0.3s;
+ border-radius: 12px;
+ background-color: #ecd448;
+ font-weight: bolder;
+ box-shadow: 0 2px 0 2px #000;
+}
+
+button:before {
+ content: "";
+ position: absolute;
+ width: 100px;
+ height: 120%;
+ background-color: #ff6700;
+ top: 50%;
+ transform: skewX(30deg) translate(-150%, -50%);
+ transition: all 0.5s;
+}
+
+button:hover {
+ background-color: #4cc9f0;
+ color: #fff;
+ box-shadow: 0 2px 0 2px #0d3b66;
+}
+
+button:hover::before {
+ transform: skewX(30deg) translate(150%, -50%);
+ transition-delay: 0.1s;
+}
+
+button:active {
+ transform: scale(0.9);
+}
+/* tooltip settings 👇 */
+
+.copy {
+  /* button */
+  --button-bg: #353434;
+  --button-hover-bg: #464646;
+  --button-text-color: #CCCCCC;
+  --button-hover-text-color: #8bb9fe;
+  --button-border-radius: 10px;
+  --button-diameter: 36px;
+  --button-outline-width: 1px;
+  --button-outline-color: rgb(141, 141, 141);
+  /* tooltip */
+  --tooltip-bg: #f4f3f3;
+  --toolptip-border-radius: 4px;
+  --tooltip-font-family: Menlo, Roboto Mono, monospace;
+  /* 👆 this field should not be empty */
+  --tooltip-font-size: 12px;
+  /* 👆 this field should not be empty */
+  --tootip-text-color: rgb(50, 50, 50);
+  --tooltip-padding-x: 7px;
+  --tooltip-padding-y: 7px;
+  --tooltip-offset: 8px;
+  /* --tooltip-transition-duration: 0.3s; */
+  /* 👆 if you need a transition, 
+  just remove the comment,
+  but I didn't like the transition :| */
+}
+
+.copy {
+  box-sizing: border-box;
+  width: var(--button-diameter);
+  height: var(--button-diameter);
+  border-radius: var(--button-border-radius);
+  background-color: var(--button-bg);
+  color: var(--button-text-color);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.tooltip {
+  position: absolute;
+  opacity: 0;
+  visibility: 0;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font: var(--tooltip-font-size) var(--tooltip-font-family);
+  color: var(--tootip-text-color);
+  background: var(--tooltip-bg);
+  padding: var(--tooltip-padding-y) var(--tooltip-padding-x);
+  border-radius: var(--toolptip-border-radius);
+  pointer-events: none;
+  transition: all var(--tooltip-transition-duration) cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.tooltip::before {
+  content: attr(data-text-initial);
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: calc(var(--tooltip-padding-y) / 2 * -1);
+  width: var(--tooltip-padding-y);
+  height: var(--tooltip-padding-y);
+  background: inherit;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: -999;
+  pointer-events: none;
+}
+
+.copy svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkmark {
+  display: none;
+}
+
+/* actions */
+
+.copy:hover .tooltip,
+.copy:focus:not(:focus-visible) .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: calc((100% + var(--tooltip-offset)) * -1);
+}
+
+.copy:focus:not(:focus-visible) .tooltip::before {
+  content: attr(data-text-end);
+}
+
+.copy:focus:not(:focus-visible) .clipboard {
+  display: none;
+}
+
+.copy:focus:not(:focus-visible) .checkmark {
+  display: block;
+}
+
+.copy:hover,
+.copy:focus {
+  background-color: var(--button-hover-bg);
+}
+
+.copy:active {
+  outline: var(--button-outline-width) solid var(--button-outline-color);
+}
+
+.copy:hover svg {
+  color: var(--button-hover-text-color);
+}
+
+#copy-text-btn{
+    width: 15vw;
+    height: 15vw;
+    margin-left: 5vw;
+}
+.para1
+{
+    color: white;
+    margin-left: 5vw;
+    font-size: 5vw;
+    
+}
+button {
+  font-family: inherit;
+  font-size: 1.2em;
+  background: royalblue;
+  color: white;
+  padding: 0.35em 0.5em;
+  padding-left: 0.45em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 0.8em;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+/* For screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  button {
+    width: 100%;
+    margin-top: 0.5em;
+    font-size: 1em;
+  }
+
+  .send {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 2.5em;
+  }
+}
+
+/* For screens between 768px and 992px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  button {
+    width: 50%;
+    margin-top: 0.5em;
+  }
+}
+
+/* For screens wider than 992px */
+@media screen and (min-width: 992px) {
+  button {
+    width: 25%;
+    margin-top: 1em;
+  }
+
+  .send {
+    position: absolute;
+    left: 10em;
+    width: 2em;
+    height: 2em;
+  }
+}
+
+button span {
+  display: block;
+  margin-left: 0.15em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(0.6em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(2.5em);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.05em);
+  }
+
+  to {
+    transform: translateY(-0.05em);
+  }
+}
+
+.send {
+  position: absolute;
+ // left: 5em; /* Adjust position based on screen width */
+  width: 30vw;
+  height: 15vw;
+}
+.tele
+{
+    width: 10vw;
+    height: 5vw;
+}
+
+.send-font{
+    font-size: 6vw;
+}
+.left{
+    position: absolute ;
+    left: 7.5vw;
+    
+}
+@media only screen and (min-width:1000px) and (max-width:1400px) {
+    .left{
+    position: absolute ;
+    left: -11.5vw;
+    
+}
+}
+@media only screen and (min-width:1400px) and (max-width:2500px) {
+    .left{
+    position: absolute ;
+    left: -7.5vw;
+    
+}
+}
+@media only screen and (min-width:2500px) and (max-width:6000px) {
+    .left{
+    position: absolute ;
+    left: -3.5vw;
+    
+}
+}
