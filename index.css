@@ -130,13 +130,13 @@ div:nth-child(1){
 }
 .img2
 {
-    position: absolute;
-    right: 87vw;
     clip-path: circle();
-    margin-top: -33vw;
-    width: 25vw;
-    height: 70vw;
-    z-index: 1;
+    position:fixed ;
+    left: 3vw;
+    z-index: 2;
+    height: 25vw;
+    width: 15vw;
+    border-radius: 100vw;
 }
 
 .para{
@@ -166,4 +166,147 @@ h1{
 
 .haha{
     color: white;
+}
+.about1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	height: 180vw;
+	min-width: 80vw;
+	margin: 0;
+	color: white;
+	font-size: 1.134em;
+	background-color: #262626FF;
+	font-family: sans-serif;
+	border:.7vw solid white;
+	border-radius: 10vw;
+	/*padding: 5px;
+	text-align: center;
+	cursor: pointer;*/
+	box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
+			0.063em 0.063em 5.04em #14EACFFF;
+	animation: anime 1s linear infinite;
+	margin-top: 40vw;
+	
+	
+} 
+.hg 
+ { 
+     background-color: #262626FF ; 
+     border-radius:150vw; 
+     color:black; 
+     height:24vw; 
+     width:49vw; 
+     text-indent:middle ; 
+     margin-top:5vw; 
+     margin-left:0.315em; 
+     border:.8vw solid white  ; 
+     border: 0.063em solid white transparent; 
+     font-family: sans-serif; 
+ /*        border: 1px solid transparent; 
+         border-radius: 150vw; 
+         padding: 5px; 
+         text-align: center; 
+         cursor: pointer; */ 
+         box-shadow: 0.063em 0.063em 2.52em  #14EACFFF, 
+                         0.063em 0.063em 5.04em #14EACFFF; 
+         animation: anime 1s linear infinite; 
+         margin-top: 10vw; 
+  
+  
+ }
+  .gen1 
+ { 
+     font-size: 6vw; 
+     color: white; 
+     /*text-align: center; 
+     justify-content: center;*/ 
+  
+  
+ } 
+ 
+ .card{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	height: 140vw;
+	min-width: 80vw;
+	margin: 0;
+	color: white;
+	font-size: 4.5vw;
+	background-color: #262626FF;
+	font-family: sans-serif;
+	border:.7vw solid white;
+	border-radius: 10vw;
+	padding: 0.315em;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
+			0.063em 0.063em 4.04em #14EACFFF;
+	animation: anime 1s linear infinite;
+	margin-top: 20vw;
+	padding: 4vw 4vw 4vw 4vw ;
+}
+ .card1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	height: 110vw;
+	min-width: 80vw;
+	margin: 0;
+	color: white;
+	font-size: 4.5vw;
+	background-color: #262626FF;
+	font-family: sans-serif;
+	border:.7vw solid white;
+	border-radius: 10vw;
+	padding: 0.315em;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
+			0.063em 0.063em 4.04em #14EACFFF;
+	animation: anime 1s linear infinite;
+	margin-top: 20vw;
+	padding: 4vw 4vw 4vw 4vw ;
+}
+.send{
+    width: 1vw;
+    height: 5vw;
+    
+}
+.button {
+  background-color: #ffffff00;
+  color: #fff;
+  width: 10.5em;
+  height: 4.9em;
+  border: #3654ff 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+  margin-left: -16vw;
+}
+
+.button:hover {
+  background-color: #3654ff;
+  cursor: pointer;
+}
+
+.button svg {
+  width: 1.6em;
+  margin: -0.2em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.button:hover svg {
+  transform: translateX(5px);
+}
+
+.text {
+  margin: 0 1.5em;
+  font-size : 3.5vw ;
 }
