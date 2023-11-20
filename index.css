@@ -280,13 +280,13 @@ h1{
 .button {
   background-color: #ffffff00;
   color: #fff;
-  width: 10.5em;
-  height: 4.9em;
+  width: 56vw;
+  height: 16vw;
   border: #3654ff 0.2em solid;
   border-radius: 11px;
   text-align: right;
   transition: all 0.6s ease;
-  margin-left: -16vw;
+  margin-left: -26vw;
 }
 
 .button:hover {
@@ -295,7 +295,7 @@ h1{
 }
 
 .button svg {
-  width: 1.6em;
+  width: 2.6em;
   margin: -0.2em 0.8em 1em;
   position: absolute;
   display: flex;
@@ -308,5 +308,5 @@ h1{
 
 .text {
   margin: 0 1.5em;
-  font-size : 3.5vw ;
+  font-size : 5.5vw ;
 }
