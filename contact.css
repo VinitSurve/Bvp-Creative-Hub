@@ -106,7 +106,7 @@ outline: none !important;
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
-	height: 180vw;
+	height: 190vw;
 	min-width: 80vw;
 	margin: 0;
 	color: black;
@@ -434,3 +434,62 @@ button:active {
     
 }
 }
+ .card1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	height: 190vw;
+	min-width: 80vw;
+	margin: 0;
+	color: white;
+	font-size: 4.5vw;
+	background-color: #262626FF;
+	font-family: sans-serif;
+	border:.7vw solid white;
+	border-radius: 10vw;
+	padding: 0.315em;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
+			0.063em 0.063em 4.04em #14EACFFF;
+	animation: anime 1s linear infinite;
+	margin-top: 20vw;
+	padding: 0 4vw 4vw 4vw ;
+}
+.card2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	height: 120vw;
+	min-width: 80vw;
+	margin: 0;
+	color: white;
+	font-size: 4.5vw;
+	background-color: #262626FF;
+	font-family: sans-serif;
+	border:.7vw solid white;
+	border-radius: 10vw;
+	padding: 0.315em;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
+			0.063em 0.063em 4.04em #14EACFFF;
+	animation: anime 1s linear infinite;
+	margin-top: 20vw;
+	padding: 4vw 4vw 4vw 4vw ;
+}
+h3{
+    font-size: 4vw;
+}
+h1{
+    font-size: 10vw ;
+    position: relative;
+    top: 12vw;
+} 
+.vinit,.narayan{
+    position: relative;
+    left: -20vw;
+}
+
