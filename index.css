@@ -254,7 +254,7 @@ h1{
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
-	height: 110vw;
+	height: 150vw;
 	min-width: 80vw;
 	margin: 0;
 	color: white;
@@ -295,7 +295,7 @@ h1{
 }
 
 .button svg {
-  width: 2.6em;
+ // width: 2.6em;
   margin: -0.2em 0.8em 1em;
   position: absolute;
   display: flex;
