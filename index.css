@@ -283,7 +283,7 @@ h1{
   width: 56vw;
   height: 16vw;
   border: #3654ff 0.2em solid;
-  border-radius: 11px;
+  border-radius: 10vw;
   text-align: right;
   transition: all 0.6s ease;
   margin-left: -26vw;
