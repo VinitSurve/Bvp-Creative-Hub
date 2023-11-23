@@ -45,7 +45,7 @@
 
 .insta:hover {
   color: #fff;
-  border: 1px solid rgb(255,0,0);
+  border: .75vw solid #2296F3;
 }
 
 .insta:hover::before {
