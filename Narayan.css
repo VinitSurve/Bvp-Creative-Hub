@@ -8,7 +8,7 @@
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid rgb(255,0,0);
+  border: .75vw solid #2296F3;
   border-radius: 10vw;
   outline: none;
   overflow: hidden;

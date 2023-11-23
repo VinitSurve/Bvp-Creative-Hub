@@ -1,3 +1,5 @@
+
+
 *{
     font-family: 'Open Sans', sans-serif; 
     font-display: swap;
@@ -65,8 +67,8 @@ nav ul li{
 .page a:hover {
     border: .7vw solid white;
     color: white;
-    box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
-			0.063em 0.063em 5.04em #14EACFFF;
+    box-shadow: 0.063em 0.063em 2.52em  #2296F3,
+			0.063em 0.063em 5.04em #2296F3;
 	// animation: anime 1s linear infinite;
 	// margin-top: 20vw;
 }
@@ -118,8 +120,8 @@ outline: none !important;
 	/*padding: 5px;
 	text-align: center;
 	cursor: pointer;*/
-	box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
-			0.063em 0.063em 5.04em #14EACFFF;
+	box-shadow: 0.063em 0.063em 2.52em  #2296F3,
+			0.063em 0.063em 5.04em #2296F3;
 	animation: anime 1s linear infinite;
 	margin-top: 40vw;
 	
@@ -184,8 +186,8 @@ h1{
 	/*padding: 5px;
 	text-align: center;
 	cursor: pointer;*/
-	box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
-			0.063em 0.063em 5.04em #14EACFFF;
+	box-shadow: 0.063em 0.063em 2.52em  #2296F3,
+			0.063em 0.063em 5.04em #2296F3;
 	animation: anime 1s linear infinite;
 	margin-top: 40vw;
 	
@@ -209,8 +211,8 @@ h1{
          padding: 5px; 
          text-align: center; 
          cursor: pointer; */ 
-         box-shadow: 0.063em 0.063em 2.52em  #14EACFFF, 
-                         0.063em 0.063em 5.04em #14EACFFF; 
+         box-shadow: 0.063em 0.063em 2.52em  #2296F3, 
+                         0.063em 0.063em 5.04em #2296F3; 
          animation: anime 1s linear infinite; 
          margin-top: 10vw; 
   
@@ -243,8 +245,8 @@ h1{
 	padding: 0.315em;
 	text-align: center;
 	cursor: pointer;
-	box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
-			0.063em 0.063em 4.04em #14EACFFF;
+	box-shadow: 0.063em 0.063em 2.52em  #2296F3,
+			0.063em 0.063em 4.04em #2296F3;
 	animation: anime 1s linear infinite;
 	margin-top: 20vw;
 	padding: 4vw 4vw 4vw 4vw ;
@@ -266,8 +268,8 @@ h1{
 	padding: 0.315em;
 	text-align: center;
 	cursor: pointer;
-	box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
-			0.063em 0.063em 4.04em #14EACFFF;
+	box-shadow: 0.063em 0.063em 2.52em  #2296F3,
+			0.063em 0.063em 4.04em #2296F3;
 	animation: anime 1s linear infinite;
 	margin-top: 20vw;
 	padding: 4vw 4vw 4vw 4vw ;
@@ -287,6 +289,9 @@ h1{
   text-align: right;
   transition: all 0.6s ease;
   margin-left: -26vw;
+  box-shadow: 0.063em 0.063em 2.52em  #2296F3,
+			0.063em 0.063em 5.04em #2296F3;
+	animation: anime 1s linear infinite;
 }
 
 .button:hover {
@@ -295,7 +300,7 @@ h1{
 }
 
 .button svg {
- // width: 2.6em;
+//  width: 2.6em;
   margin: -0.2em 0.8em 1em;
   position: absolute;
   display: flex;
@@ -311,7 +316,7 @@ h1{
   font-size : 5.5vw ;
 }
 h3{
-    font-size: 4vw;
+    font-size: 6vw;
 }
 h1{
     font-size: 10vw ;

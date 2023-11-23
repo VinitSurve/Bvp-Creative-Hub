@@ -2,7 +2,7 @@
   width: 40vw;
   height: 15vw;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 10vw;
   padding: 10px 25px;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
@@ -20,7 +20,7 @@
 
 .btn-2 {
   background: #004dff;
-  background: linear-gradient(0deg, #004dff 0%, #004dff 100%);
+  background: linear-gradient(0deg, #004dff 0%, #004dff 100%);  
   border: none;
 }
 

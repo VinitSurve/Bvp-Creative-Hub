@@ -65,8 +65,8 @@ nav ul li{
 .page a:hover {
     border: .7vw solid white;
     color: white;
-    box-shadow: 0.063em 0.063em 2.52em  #14EACFFF,
-			0.063em 0.063em 5.04em #14EACFFF;
+    box-shadow: 0.063em 0.063em 2.52em  #2296F3,
+			0.063em 0.063em 5.04em #2296F3;
 	// animation: anime 1s linear infinite;
 	// margin-top: 20vw;
 }
@@ -123,8 +123,8 @@ h1
          padding: 5px; 
          text-align: center; 
          cursor: pointer; */ 
-         box-shadow: 0.063em 0.063em 2.52em  #14EACFFF, 
-                         0.063em 0.063em 5.04em #14EACFFF; 
+         box-shadow: 0.063em 0.063em 2.52em  #2296F3, 
+                         0.063em 0.063em 5.04em #2296F3; 
          animation: anime 1s linear infinite; 
          margin-top: 20vw;  
   
@@ -182,8 +182,8 @@ h1
          padding: 5px; 
          text-align: center; 
          cursor: pointer; */ 
-         box-shadow: 0.063em 0.063em 2.52em  #14EACFFF, 
-                         0.063em 0.063em 5.04em #14EACFFF; 
+         box-shadow: 0.063em 0.063em 2.52em  #2296F3, 
+                         0.063em 0.063em 5.04em #2296F3; 
          animation: anime 1s linear infinite; 
          margin-top: 10vw; 
   
