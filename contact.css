@@ -439,7 +439,7 @@ button:active {
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
-	height: 190vw;
+	height: 350vw;
 	min-width: 80vw;
 	margin: 0;
 	color: white;
@@ -455,7 +455,7 @@ button:active {
 			0.063em 0.063em 4.04em #2296F3;
 	animation: anime 1s linear infinite;
 	margin-top: 20vw;
-	padding: 0 4vw 4vw 4vw ;
+	padding: 4vw 4vw 4vw 4vw ;
 }
 .card2{
 	display: flex;
